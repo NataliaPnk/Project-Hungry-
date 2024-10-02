@@ -1,0 +1,33 @@
+.downloadSection {
+  width: 100%;
+  min-height: 270px;
+  background-color: rgba(31, 152, 240, 1);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.downloadSection p {
+  font-size: 38px;
+  font-family: 'Lato';
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+}
+
+.downloadSection button {
+  min-width: 225px;
+  min-height: 60px;
+
+  font-size: 18;
+  font-family: 'Lato';
+  color: rgba(31, 152, 240, 1);
+  font-weight: 600;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  border: none;
+}

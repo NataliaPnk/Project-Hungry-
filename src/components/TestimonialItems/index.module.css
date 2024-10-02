@@ -1,0 +1,38 @@
+.testimonailItem {
+  min-height: 260px;
+  min-height: 230px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.testimonailItem img {
+  max-width: 113px;
+  max-height: 113px;
+  border-radius: 30px;
+
+  object-fit: cover;
+  display: block;
+}
+
+.testimonailItem h4 {
+  font-size: 21px;
+  font-weight: 500;
+  font-family: "Lato";
+  color: rgba(3, 16, 26, 1);
+}
+
+.testimonailItem p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Lato";
+  color: rgba(3, 16, 26, 1);
+  line-height: 24px;
+
+  display: flex;
+  text-align: center;
+}

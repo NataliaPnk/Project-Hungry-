@@ -1,0 +1,25 @@
+.newsOuterContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 100%;
+  min-height: 600px;
+  padding-top: 80px;
+}
+
+.newsOuterContainer h2 {
+  color: rgba(3, 16, 26, 1);
+  font-size: 38px;
+  font-weight: 700;
+  font-family: 'Lato';
+}
+
+.newsInnerContainer {
+  width: 70%;
+  min-height: 500px;
+
+  display: flex;
+  flex-direction: row;
+}

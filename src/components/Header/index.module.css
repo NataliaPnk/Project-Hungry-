@@ -1,0 +1,52 @@
+.headerContainer {
+  width: 100%;
+  /* max-height: 120px; */
+  height: 120px;
+  background-color: rgba(31, 152, 240, 1);
+
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+.label {
+font-size: 30px;
+font-weight: 700;
+font-family: 'Lato';
+color: rgba(255, 255, 255, 1);
+}
+
+.button {
+  width: 185px;
+  height: 50px;
+
+  border-radius: 10px;
+  border-style: none;
+
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Lato';
+  color: rgba(3, 16, 26, 1);
+  background-color: rgba(255, 255, 255, 1);
+
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+
+
+.navMenuWrapper {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Work Sans';
+  color: rgba(255, 255, 255, 1);
+  opacity: 70%;
+}

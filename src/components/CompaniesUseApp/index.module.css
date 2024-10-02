@@ -1,0 +1,45 @@
+.companiesUseAppContainer {
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 70px;
+  padding-left: 110px;
+}
+
+.companiesUseAppContainer p {
+  color: rgba(3, 16, 26, 1);
+  font-size: 22px;
+  font-weight: 500;
+  font-family: "Lato";
+}
+
+.companies {
+  display: flex;
+  flex-direction: row;
+
+  padding-top: 50px;
+  color: rgba(57, 65, 73, 1);
+}
+
+.companies div {
+  display: flex;
+  flex-direction: row;
+
+  padding-right: 80px;
+}
+
+.companiesUseAppContainer svg {
+  margin-right: 10px;
+
+  width: 40%;
+  height: 55px;
+
+  color: rgb(90, 94, 99);
+}
+
+.companies p {
+  color: rgb(90, 94, 99);
+  font-size: 28px;
+  font-family: "Hind Siliguri";
+  font-weight: 600;
+}

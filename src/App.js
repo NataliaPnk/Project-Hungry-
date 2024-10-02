@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
+import HomeSection from './components/HomeSection';
+import PresentationSection from './components/PresentationSection';
+import DownloadSection from './components/DownloadSection';
+import UpdateNews from './components/UpdateNews';
+import { initialTestimonialList } from './data/initialTestimonialList';
+import { initialNewsList } from './data/initialNewsList';
+import Footer from './components/Footer';
+
 
 function App() {
+
+  const [ testimonialList, setTestimonialList ] = useState(initialTestimonialList)
+
+  const [ news, setNews ] = useState(initialNewsList)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Header/>
+     <HomeSection/>
+     <PresentationSection testimonialList={testimonialList}/>
+     <DownloadSection/>
+     <UpdateNews news={news}/>
+     <Footer/>
     </div>
   );
 }
